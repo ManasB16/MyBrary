@@ -16,7 +16,7 @@ app.use(methodOverride("_method"));
 app.use(fileUpload());
 
 // Serve static files from 'public' directory
-app.use(express.static("public/uploads/bookCovers"));
+app.use(express.static("public"));
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json()); // Middleware to parse JSON data
