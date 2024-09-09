@@ -39,6 +39,7 @@
   align-content: flex-start;
   align-items: center;
   grid-gap: 1rem;
+  margin-left: 50px;
   grid-template-columns: auto auto;
 }
 
